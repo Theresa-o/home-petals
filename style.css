@@ -1,5 +1,3 @@
-
-
 *{
     margin: 0;
     padding: 0;
@@ -80,15 +78,25 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 25px;
+    color: #20b2ab;
+}
+
+.hamburger i{
+    color: #20b2ab;
 }
 
 .menu-ul{
     display: none;
+    color: #20b2ab !important;
 }
 
 .active-menu{
     display: block;
     text-align: right;
+}
+
+#ham-icon {
+    color: #20b2ab !important;
 }
 
 .active-menu-bg {
@@ -129,10 +137,10 @@
     display: inline-block;
 }
 
-
 .hamburger{
     display: none;
 }
+
 /* responsive navbar  */
 
 /* -- -----------------------*-----------------------------HEADER----------------------------------*---------------------- --> */
